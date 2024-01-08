@@ -109,7 +109,7 @@ input#new-task {
 .task-list-item > input[type="checkbox"] {
   margin: 0 10px;
 }
-.task-list-item > label {
+.task-list-item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-.task-list#completed-tasks label {
+.task-list#completed-tasks .label {
   text-decoration: line-through
   color: #888;
 }
@@ -143,6 +143,6 @@ button.delete img:hover {
   width:224px
 }
 
-.task-list-item.edit-mode label {
+.task-list-item.edit-mode .label {
   display:none;
 }
