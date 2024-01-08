@@ -27,6 +27,11 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
+.main_title{
+  display: none;
+}
+
 .task {
   width: 56%;
   display: inline-block;
